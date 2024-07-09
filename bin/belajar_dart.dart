@@ -6,6 +6,7 @@ import 'strings.dart';
 import 'booleans.dart';
 import 'operators.dart';
 import 'exceptions.dart';
+import 'konversi_suhu.dart';
 
 void main(List<String> arguments) {
   // Single line comment
@@ -31,5 +32,7 @@ void main(List<String> arguments) {
   operators();
   print('\n');
   exeptions();
+  print('\n');
+  konversiSuhu();
   print('\n');
 }
