@@ -1,4 +1,5 @@
 void variables() {
+  print("Variables");
   var greetings = 'Hello Dart!';
   print(greetings);
 

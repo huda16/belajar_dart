@@ -2,7 +2,7 @@ import 'dart:io';
 
 void dataTypes() {
   // Data Types (int, double, num,  bool, String, List, Map, dynamic)
-
+  print('Data Types');
   // implicit
   var greetings = 'Hello Dart!'; // String
   var myAge = 20; // integers
