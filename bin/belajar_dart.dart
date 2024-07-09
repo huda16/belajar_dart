@@ -4,6 +4,7 @@ import 'data_types.dart';
 import 'numbers.dart';
 import 'strings.dart';
 import 'booleans.dart';
+import 'operators.dart';
 
 void main(List<String> arguments) {
   // Single line comment
@@ -25,5 +26,7 @@ void main(List<String> arguments) {
   strings();
   print('\n');
   booleans();
+  print('\n');
+  operators();
   print('\n');
 }
