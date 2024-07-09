@@ -9,5 +9,10 @@ void main(List<String> arguments) {
   comment
  */
 
-  print('Hello world: ${belajar_dart.calculate()}!');
+  var greetings = 'Hello Dart!';
+  print(greetings);
+
+  var myAge;
+  myAge = 20;
+  print(myAge);
 }
