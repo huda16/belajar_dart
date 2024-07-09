@@ -3,6 +3,7 @@ import 'variables.dart';
 import 'data_types.dart';
 import 'numbers.dart';
 import 'strings.dart';
+import 'booleans.dart';
 
 void main(List<String> arguments) {
   // Single line comment
@@ -22,5 +23,7 @@ void main(List<String> arguments) {
   numbers();
   print('\n');
   strings();
+  print('\n');
+  booleans();
   print('\n');
 }
