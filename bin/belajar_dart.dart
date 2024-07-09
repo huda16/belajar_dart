@@ -8,6 +8,7 @@ import 'operators.dart';
 import 'exceptions.dart';
 import 'konversi_suhu.dart';
 import 'functions.dart';
+import 'variable_scope.dart';
 
 void main(List<String> arguments) {
   // Single line comment
@@ -37,5 +38,7 @@ void main(List<String> arguments) {
   konversiSuhu();
   print('\n');
   functions();
+  print('\n');
+  variableScope();
   print('\n');
 }
