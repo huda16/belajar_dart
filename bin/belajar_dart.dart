@@ -5,6 +5,7 @@ import 'numbers.dart';
 import 'strings.dart';
 import 'booleans.dart';
 import 'operators.dart';
+import 'exceptions.dart';
 
 void main(List<String> arguments) {
   // Single line comment
@@ -28,5 +29,7 @@ void main(List<String> arguments) {
   booleans();
   print('\n');
   operators();
+  print('\n');
+  exeptions();
   print('\n');
 }
