@@ -9,6 +9,7 @@ import 'exceptions.dart';
 import 'konversi_suhu.dart';
 import 'functions.dart';
 import 'variable_scope.dart';
+import 'constants_and_final.dart';
 
 void main(List<String> arguments) {
   // Single line comment
@@ -40,5 +41,7 @@ void main(List<String> arguments) {
   functions();
   print('\n');
   variableScope();
+  print('\n');
+  constantsAndFinal();
   print('\n');
 }
