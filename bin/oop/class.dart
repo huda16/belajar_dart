@@ -1,4 +1,5 @@
 void classes() {
+  print('Class');
   var dicodingCat = Animal('Gray', 2, 4.2);
 
   dicodingCat.eat();
@@ -8,6 +9,7 @@ void classes() {
 }
 
 class Animal {
+  // property merepresentasikan atribut pada sebuah objek
   // mendefinisikan attribute dengan variabel
   String name;
   int age;
@@ -15,6 +17,7 @@ class Animal {
 
   Animal(this.name, this.age, this.weight);
 
+  // method menggambarkan perilaku dari objek
   // behaviour sering direpresentasikan sebagai function
   void eat() {
     print('$name is eating.');
