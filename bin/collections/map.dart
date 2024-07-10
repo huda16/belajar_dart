@@ -1,4 +1,5 @@
 void map() {
+  print('Map');
   var capital = {'Jakarta': 'Indonesia', 'London': 'England', 'Tokyo': 'Japan'};
 
   print(capital['Jakarta']);
