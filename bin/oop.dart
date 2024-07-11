@@ -3,6 +3,7 @@ import 'oop/properties_methods.dart';
 import 'oop/constructor.dart';
 import 'oop/cascade_notation.dart';
 import 'oop/inheritance.dart';
+import 'oop/abstract.dart';
 
 void oop() {
   print('Object Oriented Programming');
@@ -16,5 +17,7 @@ void oop() {
   cascadeNotation();
   print('\n');
   inheritance();
+  print('\n');
+  abstract();
   print('\n');
 }
