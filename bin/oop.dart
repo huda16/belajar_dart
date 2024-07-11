@@ -7,6 +7,7 @@ import 'oop/abstract.dart';
 import 'oop/implicit_interface.dart';
 import 'oop/enumerated_types.dart';
 import 'oop/mixins.dart';
+import 'oop/extension_methods.dart';
 
 void oop() {
   print('Object Oriented Programming');
@@ -28,5 +29,7 @@ void oop() {
   enumeratedTypes();
   print('\n');
   mixins();
+  print('\n');
+  extensionMethods();
   print('\n');
 }
