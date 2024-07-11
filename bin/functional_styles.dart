@@ -1,4 +1,5 @@
 import 'functional_styles/anonymous_function.dart';
+import 'functional_styles/higher_order_functions.dart';
 
 void functionalStyles() {
   print('Functional Programming');
@@ -15,6 +16,8 @@ void functionalStyles() {
   // first-class citizen adalah bahwa function berlaku sama seperti komponen pemrograman yang lain.
   // Higher order functions adalah fungsi yang mengambil fungsi lain sebagai argumen dan juga dapat mengembalikan fungsi.
   anonymousFunction();
+  print('\n');
+  higherOrderFunctions();
   print('\n');
 }
 
