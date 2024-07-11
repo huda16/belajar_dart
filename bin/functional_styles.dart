@@ -1,5 +1,6 @@
 import 'functional_styles/anonymous_function.dart';
 import 'functional_styles/higher_order_functions.dart';
+import 'functional_styles/closures.dart';
 
 void functionalStyles() {
   print('Functional Programming');
@@ -18,6 +19,8 @@ void functionalStyles() {
   anonymousFunction();
   print('\n');
   higherOrderFunctions();
+  print('\n');
+  closures();
   print('\n');
 }
 
