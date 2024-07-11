@@ -4,6 +4,7 @@ import 'oop/constructor.dart';
 import 'oop/cascade_notation.dart';
 import 'oop/inheritance.dart';
 import 'oop/abstract.dart';
+import 'oop/implicit_interface.dart';
 
 void oop() {
   print('Object Oriented Programming');
@@ -19,5 +20,7 @@ void oop() {
   inheritance();
   print('\n');
   abstract();
+  print('\n');
+  implicitInterface();
   print('\n');
 }
