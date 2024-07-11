@@ -3,8 +3,9 @@ import 'dart_fundamental.dart';
 import 'control_flow.dart';
 import 'collections.dart';
 import 'oop.dart';
-// import 'functional_styles.dart';
+import 'functional_styles.dart';
 import 'type_systems.dart';
+import 'futures.dart';
 
 void main(List<String> arguments) {
   // dartFundamental();
@@ -12,5 +13,6 @@ void main(List<String> arguments) {
   // collections();
   // oop();
   // functionalStyles();
-  typeSystems();
+  // typeSystems();
+  futures();
 }
